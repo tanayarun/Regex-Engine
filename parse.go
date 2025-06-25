@@ -9,4 +9,5 @@ const (
 
 type regexToken struct {
 	tokenType regexTokenType
+	value interface{}
 }
